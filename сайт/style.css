@@ -1,0 +1,211 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    font-family: dm sans;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+.onepage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 869px;
+    background: url(./img/Rectangle\ 3.png) top right no-repeat,
+    linear-gradient(180deg, #E4EFFF 0%, rgba(228, 239, 255, 0.6) 92.51%, rgba(228, 239, 255, 0) 100%);
+
+}
+.logo > div{
+    width: 50px;
+    height: 50px;
+    background: rgba(110, 164, 252, 1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 500px;
+}
+.logo > a{
+    color: rgba(25, 55, 102, 1);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.logo{
+    display: flex;
+    margin-left: 130px;
+    align-items: center;
+    gap: 15px;
+}
+header{
+    width: 100%;
+    display: flex;
+    margin-top: 66px;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+.navpanel{
+    position: absolute;
+    left: 50%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    transform: translateX(-50%);
+}
+.downloadhead{
+    width: 137px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.downloadhead > a{
+    color: rgba(59, 130, 246, 1);
+    font-weight: bold;
+}
+.zov{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-right: 148px;
+}
+h1{
+    font-size: 64px;
+    color: rgba(25, 55, 102, 1);
+    margin-top: 129px;
+    margin-left: 130px;
+}
+h5{
+    font-size: 22px;
+    color: rgba(105, 123, 152, 1);
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.sharehead{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 130px;
+    gap: 15px;
+}
+.downloadmid{
+    width: 214px;
+    height: 64px;
+    background-color: rgba(59, 130, 246, 1);
+    display: flex;
+    border-radius: 6px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.downloadmid > img {
+    width: 20px;
+    height: 20px;
+}
+.downloadmid > a{
+    color: rgba(244, 247, 255, 1);
+    font-weight: bold;
+}
+.seeinaction{
+    width: 201px;
+    height: 64px;
+    background-color: rgba(198, 219, 255, 1);
+    border-radius: 6px;
+}
+.seeinaction > a {
+    color:rgba(59, 130, 246, 1);
+    font-weight: bold;
+}
+.picturepage{
+    width: 583px;
+    height: 582px;
+    margin-left: 719px;
+    margin-top: -482px;
+}
